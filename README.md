@@ -8,7 +8,7 @@ Read file contents.
 steps:
   - name: Read package.json
     id: package
-    uses: juliangruber/read-file-action@v1
+    uses: saurabhrai19/copyfileaction@v1
     with:
       path: ./package.json
   - name: Echo package.json
